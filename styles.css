@@ -1,0 +1,17 @@
+
+footer {
+    background-color: blue !important;
+    color:white;
+    padding:25px;
+}
+categories {
+  border-style:solid;
+  padding:30px;
+  width:30px;
+  margin:20px;
+border-color:#000;
+background-color: red;
+}
+categorylist {
+  padding:30px;
+}

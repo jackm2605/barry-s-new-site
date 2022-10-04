@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Store location</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link ">Account</a>
+    </li>
+  </ul>
+  <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Barry's Bargains</a>
+    </div>
+  </nav>
+  <br>
+      <main>
+        <ul class="nav ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">      <categories>
+            In date
+          </categories></a>
+  
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">        <categories>
+            On sale
+          </categories></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">       <categories>
+            Bulk buy
+          </categories></a>
+        </li>
+   
+      </ul>
+  <br>
+  <br>
+  <br>
+  <div class="row">
+  <div class="col">
+        <img width="250px" height="250px" src="data:image/jpeg;base64,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">
+      </div>
+       <h3>Chewing gum</h3>
+    <p>Price=£1.00</p>
+   
+</div> 
+<div class="col">
+    <br>
+    <br>
+      <h3>Add to basket</h3>
+            <p>Description of product</p>
+            
+    </div>
+  </html>
